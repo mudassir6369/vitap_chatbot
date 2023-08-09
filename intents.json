@@ -1,0 +1,389 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day","Hi","Greetings","Good Morning","Good Afternoon","Good Evening","hi","hello","hi there", "how are you", "is anyone there?", "hey", "hola", "good day","greetings","good morning","good afternoon","good evening","hii","helloo"],
+         "responses": ["Hello! Welcome to VTOP!", "Good to see you again!", "Hi there, how can I help?", "Good day! What can I do for you today?", "Greetings! How can I assist?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Ok bye"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks","Thank You","Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","thanks", "thank you", "that's helpful", "awesome, thanks", "thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","You're welcome! If you have any more questions or need further assistance, feel free to ask.","Welcome"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more information", "Not sure I understand", "Sorry, I didn't get that. Can you rephrase?", "Sorry, I don't understand. Can you rephrase?"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could me?", "What you can do?", "What do you provide?", "How you can be helpful?", "What support is offered?","How you could me?", "what you can do?", "what do you provide?", "how you can be helpful?", "what support is offered?","How you could me?", "what can you do", "what do you provide", "how you can be helpful", "what support is offered"],
+         "responses": ["I can guide you through VTOP web portal!", "Offering support for VTOP web portal!", "I can help you navigate VTOP!"],
+         "context": [""]
+        },
+        {"tag": "profile",
+          "patterns": ["profile", "Profile", "my profile", "My profile", "myprofile" ],
+          "responses": ["Navigate to My Info tab on the left side of the vtop to find information about profile!"],
+          "context": [""]
+        },
+        {"tag": "letter",
+          "patterns": ["admission letter", "Admission letter", "Provisional admission letter", "provisional admission letter", "provisional letter"],
+          "responses": ["Navigate to My Info tab on the left side of the vtop to find information about Provisional Admission Letter!"],
+          "context": [""]
+        },
+        {"tag": "vitap_credentials",
+         "patterns": ["vit ap credentials", "credentials", "Credentials", "credentials","vit ap credential","credential"],
+         "responses": ["Go to My Info tab on the left side of the vtop to find information about your VIT-AP credentials!"],
+         "context": [""]
+        },
+        {"tag": "dayboarder",
+          "patterns": ["dayboarder", "Dayboarder","dayboarder info","dayboarder information"],
+          "responses": ["Go to My Info tab on the left side of the vtop to find about Dayboarder information!"],
+          "context": [""]
+        },
+        {"tag": "room",
+          "patterns": ["rooms", "rooms", "room information","my room information"],
+          "responses": ["Navigate to My Info tab on the left side of the vtop to find out about the Room Information!"],
+          "context": [""]
+        },
+        {"tag": "bank",
+          "patterns": ["student bank info", "bank", "bank information","bank info","student bank"],
+          "responses": ["Go to My Info tab on the left side of the vtop to find out about Bank Information!"],
+          "context": [""]
+        },
+        {"tag": "credentials",
+          "patterns": ["codetantra credentials","Codetantra credentials","codetantra"],
+          "responses": ["Go to My Info tab on the left side of the vtop to find information about Codetantra credentials!"],
+          "context": [""]
+        },
+        {"tag": "wificredentials",
+          "patterns": ["wifi credentials", "lab credentials", "Wifi credentials", "Lab Credentials"],
+          "responses": ["Go to Info Corner tab on the left side of the vtop to find information about Wifi Credentials or Lab Credentials!"],
+          "context": [""]
+        },
+	      {"tag": "coe_info",
+          "patterns": ["coe info", "coe"],
+          "responses": ["Go to Info Corner tab on the left side of the vtop to find information about COE info!"],
+          "context": [""]
+        },
+	      {"tag": "reg",
+          "patterns": ["course reg links view","course reg links","reg links"],
+          "responses": ["Navigate to Info Corner tab on the left side of the vtop to find information about Course Registration links!"],
+          "context": [""]
+        },
+	      {"tag": "faq",
+          "patterns": ["faq","FAQ","Faq"],
+          "responses": ["Navigate to Info Corner tab on the left side of the vtop to find information about FAQ!"],
+          "context": [""]
+        },
+	      {"tag": "spotlight",
+          "patterns": ["spotlight","code spotlight","Spotlight"],
+          "responses": ["Go to Info Corner tab on the left side of the vtop to find information about Spotlight!"],
+          "context": [""]
+        },
+	      {"tag": "circulars",
+          "patterns": ["circular","circulars","view circular"],
+          "responses": ["Navigate to Info Corner tab on the left side of the vtop to find information about Circulars!"],
+          "context": [""]
+        },
+        {"tag": "mentor",
+         "patterns": ["mentor", "Who is my Mentor?", "faculty adviser","Faculty adviser","Mentor"],
+         "responses": ["Navigate to Mentor tab on the left side of the vtop to find information about Mentor details!"],
+         "context": [""]
+        },
+        {"tag": "mentor_mess",
+         "patterns": ["mentor message", "Who is my Mentor?", "faculty adviser message","Faculty adviser","Mentor's message"],
+         "responses": ["Navigate to Mentor tab on the left side of the vtop to find information about Mentor's message!"],
+         "context": [""]
+        },
+        {"tag": "proctor",
+         "patterns": ["proctor", "message to proctor","Proctor"],
+         "responses": ["Navigate to Mentor tab on the left side of the vtop to find proctor!"],
+         "context": [""]
+        },
+        {"tag": "time_table",
+          "patterns": ["time table", "Time Table", "Time table"],
+          "responses": ["Go to Academics tab on the left side of the vtop after you logged in to find information about your time table!"],
+          "context": [""]
+        },
+        {"tag": "faculty",
+          "patterns": ["faculty", "faculty info", "Faculty"],
+          "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find Faculty information!"],
+          "context": [""]
+        },
+        {"tag": "hod",
+          "patterns": ["hod", "hod info", "Hod","dean", "dean info", "Dean"],
+          "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find HOD or Dean information!"],
+          "context": [""]
+        },
+        {"tag": "biometric",
+          "patterns": ["biometric", "biometric info", "Biometric"],
+          "responses": ["Go to Academics tab on the left side of the vtop after you logged in to find about Biometric information!"],
+          "context": [""]
+        },
+        {"tag": "class_messages",
+          "patterns": ["class messages", "Class messages"],
+          "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find about your Class Messages!"],
+          "context": [""]
+        },
+        {"tag": "minor",
+          "patterns": ["minor", "Minor", "honor","honour","Honor","Honour"],
+          "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find about Minor and Honour!"],
+          "context": [""]
+        },
+        {"tag": "curriculum",
+          "patterns": ["curriculum", "Curriculum", "my curriculum"],
+          "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find about your Curriculum!"],
+          "context": [""]
+        },
+        {"tag": "credits",
+         "patterns": ["credits","Credits", "credits distribution", "Credits distribution"],
+         "responses": ["Navigate to Academics tab on the left side of the vtop to find information about your credits distribution!"],
+         "context": [""]
+        },
+        {"tag": "attendance",
+          "patterns": ["attendance", "Attendance", "class attendance","Class attendance"],
+          "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find about your Class Attendance!"],
+          "context": [""]
+        },
+        {"tag": "course_page",
+          "patterns": ["course", "course page", "Course Page","Course page"],
+          "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find about the course page!"],
+          "context": [""]
+        },
+        {"tag": "inte",
+         "patterns": ["internship", "interns", "Internship","intern","Intern","industrial internship"],
+         "responses": ["Go to Academics tab on the left side of the vtop after you logged in to find about the Industrial Internship!"],
+         "context": [""]
+        },
+        {"tag": "project_upload",
+         "patterns": ["project", "project report upload"],
+         "responses": ["Go to Academics tab on the left side of the vtop after you logged in to find about the Project Report Upload!"],
+         "context": [""]
+        },
+        {"tag": "digi_upload",
+         "patterns": ["digital assignment upload", "assignment upload","digital upload"],
+         "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find about the Digital Assignment Upload!"],
+         "context": [""]
+        },
+        {"tag": "cat_download",
+         "patterns": ["cat papers download", "cat question paper download", "question paper download","question paper download cat"],
+         "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find about the CAT question paper download!"],
+         "context": [""]
+        },
+        {"tag": "lab_manual",
+         "patterns": ["lab manual", "Lab Manual", "Lab manual"],
+         "responses": ["Go to Academics tab on the left side of the vtop after you logged in to find information about the Lab Manual!"],
+         "context": [""]
+        },
+        {"tag": "qcm_view",
+         "patterns": ["qcm", "QCM", "qcm view","view qcm"],
+         "responses": ["Go to Academics tab on the left side of the vtop after you logged in to find information about the QCM!"],
+         "context": [""]
+        },
+        {"tag": "ecs_review",
+         "patterns": ["ecs review", "ecs review marks", "ecs marks","ECS marks","Ecs marks","ECS review marks"],
+         "responses": ["Go to Academics tab on the left side of the vtop after you logged in to find information about the ECS Review marks!"],
+         "context": [""]
+        },
+        {"tag": "acad_calendar",
+         "patterns": ["academic calendar", "calendar", "academic calender","calender","Academic calendar"],
+         "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find information about your Academic Calendar!"],
+         "context": [""]
+        },
+        {"tag": "fac_accept",
+         "patterns": ["faculty acceptance status", "faculty acceptance", "acceptance status","Faculty Acceptance status"],
+         "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find information about Faculty Acceptance Status!"],
+         "context": [""]
+        },
+        {"tag": "ecs_reg",
+         "patterns": ["ECS registration", "ecs registration", "Ecs registration","ecs register","ECS register","Ecs register"],
+         "responses": ["Go to Academics tab on the left side of the vtop after you logged in to find information about ECS registration!"],
+         "context": [""]
+        },
+        {"tag": "capstone_reg",
+         "patterns": ["capstone registration", "Capstone registration","capstone register","Capstone register"],
+         "responses": ["Go to Academics tab on the left side of the vtop after you logged in to find information about Capstone registration!"],
+         "context": [""]
+        },
+        {"tag": "capstone_accept",
+         "patterns": ["capstone acceptance status", "capstone acceptance", "Capstone acceptance status"],
+         "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find information about Capstone Acceptance Status!"],
+         "context": [""]
+        },
+        {"tag": "capstone_review",
+         "patterns": ["capstone review", "capstone review marks", "capstone marks","Capstone marks","Capstone review marks"],
+         "responses": ["Go to Academics tab on the left side of the vtop after you logged in to find information about the Capstone Review marks!"],
+         "context": [""]
+        },
+        {"tag": "inc_reg",
+         "patterns": ["inc registration", "INC registration","inc register","INC register","Inc register"],
+         "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find information about INC registration!"],
+         "context": [""]
+        },
+        {"tag": "mooc_reg",
+         "patterns": ["mooc course registration", "mooc registration","mooc register","mooc course register","MOOC register","MOOC registration"],
+         "responses": ["Navigate to Academics tab on the left side of the vtop after you logged in to find information about MOOC course registration!"],
+         "context": [""]
+        },
+        {"tag": "sem_req",
+         "patterns": ["SEM request", "sem request","Sem request"],
+         "responses": ["Navigate to Research tab on the left side of the vtop after you logged in to find information about SEM Request!"],
+         "context": [""]
+        },
+        {"tag": "reg_sta",
+         "patterns": ["registration status", "Registration status","register status","Register status"],
+         "responses": ["Go to Research tab on the left side of the vtop after you logged in to find information about your Registration Status!"],
+         "context": [""]
+        },
+        {"tag": "meet_info",
+         "patterns": ["meeting info", "meet info","meet","meeting"],
+         "responses": ["Navigate to Research tab on the left side of the vtop after you logged in to find information about Meeting!"],
+         "context": [""]
+        },
+        {"tag": "exam_sched",
+         "patterns": ["exam schedule", "schedule exam", "Exam Schedule","examination schedule"],
+         "responses": ["Navigate to Examination tab on the left side of the screen to find information about examination schedule!"],
+         "context": [""]
+        },
+        {"tag": "marks",
+         "patterns": ["marks", "marks section", "Marks","exam marks"],
+         "responses": ["Navigate to Examination tab on the left side of the screen to find information about Marks!"],
+         "context": [""]
+        },
+        {"tag": "arr_grad",
+         "patterns": ["arrear grades", "Arrear grades"],
+         "responses": ["Go to Examination tab on the left side of the screen to find information about Arrear Grades!"],
+         "context": [""]
+        },
+        {"tag": "grades",
+         "patterns": ["grades", "sem grades","Sem grades","cat grades","fat grades"],
+         "responses": ["Go to Examination tab on the left side of the screen to find information about SEM Grades!"],
+         "context": [""]
+        },
+        {"tag": "rev",
+         "patterns": ["paper see","paper check"],
+         "responses": ["Navigate to Examination tab on the left side of the screen to find information about Paper See!"],
+         "context": [""]
+        },
+        {"tag": "grad_hist",
+         "patterns": ["grade history", "history of grades","Grade History"],
+         "responses": ["Navigate to Examination tab on the left side of the screen to find information about Grade History!"],
+         "context": [""]
+        },
+        {"tag": "proj_file",
+         "patterns": ["project file upload", "file upload"],
+         "responses": ["Navigate to Examination tab on the left side of the screen to find information about Project File Upload!"],
+         "context": [""]
+        },
+        {"tag": "arr_reg",
+         "patterns": ["Arrear register", "arrear registration", "Arrear registration"],
+         "responses": ["Navigate to Examination tab on the left side of the screen to find information about Arrear Registration!"],
+         "context": [""]
+        },
+        {"tag": "appellate",
+         "patterns": ["appellate", "Appellate"],
+         "responses": ["Go to Examination tab on the left side of the screen to find information about Appellate!"],
+         "context": [""]
+        },
+        {"tag": "reval",
+         "patterns": ["revaluation", "Revaluation","Re-evaluation","re-evaluation"],
+         "responses": ["Navigate to Examination tab on the left side of the screen to find information about Re-evaluation request!"],
+         "context": [""]
+        },
+        {"tag": "pat",
+         "patterns": ["pat registration", "pat register","internship","pat intern form","pat internship form","PAT"],
+         "responses": ["Go to Services tab on the left side of the screen to find information about PAT Registration or PAT internship Form!"],
+         "context": [""]
+        },
+        {"tag": "off",
+         "patterns": ["upload offer letter", "offer letter","upload offer","Offer Letter","Offer Letter"],
+         "responses": ["Navigate to Services tab on the left side of the vtop after you logged in. There you will fond an option to upload Offer letter!"],
+         "context": [""]
+        },
+        {"tag": "lib",
+         "patterns": ["library keys", "scanning request"],
+         "responses": ["Navigate to Library tab on the left side of the screen to find information about Library Keys/Request!"],
+         "context": [""]
+        },
+        {"tag": "paytm",
+         "patterns": ["payments", "payment receipts"],
+         "responses": ["Go to Payments tab on the left side of the screen to find information about Payments or Payments Recipets!"],
+         "context": [""]
+        },
+        {"tag": "online",
+         "patterns": ["online transfer", "online amount transfer"],
+         "responses": ["Navigate to Payments tab on the left side of the vtop after you logged in to find information about Online Transfer!"],
+         "context": [""]
+        },
+        {"tag": "wall",
+         "patterns": ["wallet", "student wallet","wallet amount"],
+         "responses": ["Navigate to Payments tab on the left side of the screen to find information about Student Wallet!"],
+         "context": [""]
+        },
+        {"tag": "add_money",
+         "patterns": ["adding money","amount addition"],
+         "responses": ["Navigate to Payments tab on the left side of the screen to find information about Student Wallet!"],
+         "context": [""]
+        },
+        {"tag": "ncgpa_rank",
+         "patterns": ["ncgpa","hostel ncgpa"],
+         "responses": ["Go to Hostels tab on the left side of the vtop after you logged in to find information about Hostel NCGPA rank!"],
+         "context": [""]
+        },
+        {"tag": "week_outing",
+        "patterns": ["outing","weekend outing","general outing"],
+        "responses": ["Go to Hostels tab on the left side of the screen to find information about Weekend Outing or General Outing!"],
+        "context": [""]
+        },
+        {"tag": "hst_room",
+         "patterns": ["room info","hostel room","Hostel room info"],
+         "responses": ["Go to Hostels tab on the left side of the screen to find information about Hostel Rooms!"],
+         "context": [""]
+        },
+        {"tag": "feedback",
+         "patterns": ["feedback","feedback form","mentor feedback","vitap feedback","staff feedback"],
+         "responses": ["Go to Feedback tab on the left side of the screen to find information about Feedback Form or Mentor Feedback or VIT-AP Feedback or Staff Feedback!"],
+         "context": [""]
+        },
+        {"tag": "feedback",
+         "patterns": ["feedback","feedback form","mentor feedback","vitap feedback","staff feedback"],
+         "responses": ["Go to Feedback tab on the left side of the screen to find information about Feedback Form or Mentor Feedback or VIT-AP Feedback or Staff Feedback!"],
+         "context": [""]
+        },        
+        {"tag": "naac",
+         "patterns": ["student satisfaction survey","student survey","naac"],
+         "responses": ["Navigate to Feedback tab on the left side of the vtop after you logged in to find information about Student Satisfaction Survey(NAAC)!"],
+         "context": [""]
+        },
+        {"tag": "cd",
+         "patterns": ["nasscom","industry certification payment", "nasscom certification payment","cdc"],
+         "responses": ["Go to CDC tab on the left side of the screen bottom to find information about Industry or Nasscom certification payment!"],
+         "context": [""]
+        }, 
+        {"tag": "alumini",
+         "patterns": ["alumini","vitaa registration", "final year registration"],
+         "responses": ["Go to Alumini tab on the left side of the screen bottom to find information about Vitaa or Final Year Registration!"],
+         "context": [""]
+        },  
+        {"tag": "bonafid",
+         "patterns": ["bonafide","Bonafide","apply bonafide","bonafid"],
+         "responses": ["Navigate to Students Record tab on the left side of the screen to find information about Bonafide!"],
+         "context": [""]
+        },
+        {"tag": "demand_letter",
+         "patterns": ["demand letter", "demand_letter","Demand letter", "Demand_Letter","Demand Letter", "Demand_Letter" ],
+         "responses": ["Go to Students Record tab on the left side of the screen to find information about Demand Letter!"],
+         "context": [""]
+        },     
+        {"tag": "pass",
+         "patterns": ["change password","change vtop password", "password", "update login id", "login id" ],
+         "responses": ["Go to My Account tab on the left side of the screen to find information about that. There you will find Change Password option."],
+         "context": [""]
+        }
+
+   ]
+} 
